@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: arial;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  border: 3px solid red;
+  margin: 0 auto;
+  min-height: 50px;
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  top: 20px;
+}
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-menu {
+  display: flex;
+  align-items: center;
+}
+.navbar-btn {
+  padding: 8px 32px;
+  background-color: white;
+  border: none;
+  border-radius: 0;
+  color: #156963;
+}
+.navbar-btn:hover {
+  background-color: #156963;
+  color: white;
+}
+.fa-magnifying-glass,
+.fa-bag-shopping {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.header {
+  width: 1280px;
+  margin: 0 auto;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.header-text {
+  width: 595px;
+}
+.header-text h2 {
+  font-size: 68px;
+  color: #156963;
+}
+.header-text p {
+  font-size: 18px;
+  line-height: 32px;
+  width: 493px;
+  margin-top: 24px;
+  color: #2c1500;
+  text-align: justify;
+}
+.text-buttons {
+  display: flex;
+  margin-top: 110px;
+}
+.header-text-btn {
+  padding: 39px 44px;
+}
+.header-text-btn h3 {
+  font-size: 32px;
+  margin-top: 12px;
+  color: #156963;
+}
+.header-text-btn a {
+  font-size: 24px;
+  color: #333333;
+  display: flex;
+  gap: 10px;
+  font-weight: 700;
+}
+.header-text-btn:hover {
+  background-color: #156963;
+}
+.header-text-btn:hover a {
+  color: #f2f2f2;
+}
+.header-text-btn:hover h3 {
+  color: #ffffff;
+}
+
+.xizmatlar-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 124px;
+}
+.xizmatlar-card {
+  border: 1px solid #e0e0e0;
+  width: 268px;
+  padding: 22px 16px;
+}
+.xizmat-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #156963;
+  line-height: 24px;
+}
+.xizmatlar-card p {
+  font-size: 12px;
+  line-height: 16px;
+  text-align: justify;
+  margin-top: 16px;
+}
+.text5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text5 select {
+  font-size: 12px;
+}
+.text5 h4 {
+  font-size: 20px;
+}
+.kk {
+  display: flex;
+  border: 3px solid red;
+  width: 217px;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+.mm {
+  display: flex;
+  justify-content: space-between;
+}
+.tt {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.tt h2 {
+  width: 522px;
+  font-size: 40px;
+}
+.tt p {
+  width: 507px;
+  margin-top: 20px;
+}
+.tt img {
+  margin-top: 70px;
+}
+.yy {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 20px;
+}
+.rasm {
+  width: 512px;
+  height: 609px;
+}
+.ss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f4f6;
+  margin-top:80px;
+}
+.bb h3 {
+  width: 585px;
+  font-size: 40px;
+}
+.bb button {
+  background-color: #156963;
+  width: 152px;
+  height: 40px;
+  color: white;
+  margin-top: 30px;
+}
+.rr {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.rr h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #156963;
+  line-height: 24px;
+  font-weight: 500;
+}
+.rr h3 {
+  color: #333333;
+}
+.rr p {
+  font-size: 13px;
+  width: 282px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #4f4f4f;
+}
+.qq {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.qq p {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.qq h4 {
+  line-height: 16px;
+  color: #000000;
+}
+.ooo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ooo p {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.ooo h4 {
+  line-height: 16px;
+  color: #000000;
+}
+
+.vv h4 {
+  line-height: 16px;
+  color: #000000;
+}
+.vv {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.vv input {
+  width: 234px;
+  height: 32px;
+  border-radius: 2px;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+}
+.vv button {
+  background-color: #156963;
+  color: white;
+  width: 51px;
+  height: 22px;
+  border-radius: 2px;
+  font-size: 8px;
+  border: 0px;
+}
+.px{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
